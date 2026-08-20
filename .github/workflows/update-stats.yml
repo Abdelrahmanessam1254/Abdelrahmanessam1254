@@ -1,0 +1,41 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    # Refresh once a day (UTC)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download latest stats SVGs
+        env:
+          USERNAME: Abdelrahmanessam1254
+        run: |
+          mkdir -p assets
+          curl -fsSL "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${USERNAME}&theme=tokyonight" -o assets/stats.svg
+          curl -fsSL "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${USERNAME}&theme=tokyonight" -o assets/repos-per-language.svg
+          curl -fsSL "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${USERNAME}&theme=tokyonight" -o assets/most-commit-language.svg
+          curl -fsSL "https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${USERNAME}&theme=tokyonight" -o assets/productive-time.svg
+          curl -fsSL "https://github-readme-streak-stats.herokuapp.com/?user=${USERNAME}&theme=tokyonight&hide_border=true" -o assets/streak.svg
+          curl -fsSL "https://github-readme-stats-one-bice.vercel.app/api?username=${USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" -o assets/overview.svg
+          curl -fsSL "https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" -o assets/top-langs.svg
+          ls -la assets
+
+      - name: Commit updated assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh GitHub profile stats SVGs"
+          file_pattern: assets/*.svg

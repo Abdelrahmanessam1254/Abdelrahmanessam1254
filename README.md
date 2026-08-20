@@ -124,17 +124,25 @@ I build high-performance mobile & web apps, lead development teams, and ship sca
 
 ## 📊 GitHub Stats
 
+<!-- SVGs are stored in this repo (./assets) so GitHub Camo won't break external hosts -->
+
 <p align="center">
-  <img height="180" src="https://github-readme-stats-one-bice.vercel.app/api?username=Abdelrahmanessam1254&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub stats" />
-  <img height="180" src="https://streak-stats.demolab.com?user=Abdelrahmanessam1254&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="./assets/overview.svg" alt="GitHub stats" height="170" />
+  <img src="./assets/streak.svg" alt="GitHub streak" height="170" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Abdelrahmanessam1254&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" alt="Top languages" />
+  <img src="./assets/top-langs.svg" alt="Top languages" height="170" />
+  <img src="./assets/stats.svg" alt="Profile summary stats" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdelrahmanessam1254&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
+  <img src="./assets/repos-per-language.svg" alt="Repos per language" height="165" />
+  <img src="./assets/most-commit-language.svg" alt="Most commit language" height="165" />
+</p>
+
+<p align="center">
+  <img src="./assets/productive-time.svg" alt="Productive time" width="420" />
 </p>
 
 ---
