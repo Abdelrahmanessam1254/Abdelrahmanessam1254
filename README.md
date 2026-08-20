@@ -1,14 +1,17 @@
-# 💫 About Me
-I'm **Abdelrahman Essam**, a Full Stack Software Engineer specializing in **Flutter, Django, Next.js, and scalable system architecture**.  
-I build high‑performance mobile & web apps, lead development teams, and design production‑ready backend systems used by thousands.
+# Hi, I'm Abdelrahman Essam 👋
 
-I enjoy solving complex problems, optimizing performance, and delivering clean, maintainable code. My experience spans **ERPs, CRMs, AI platforms, mobile applications, automation systems, and large‑scale distributed platforms** across multiple industries.
+**Full Stack Software Engineer** specializing in **Flutter**, **Django / Laravel**, **React / Next.js**, and production-ready system architecture.
 
-🚀 **Currently working as a Full Stack Developer at Gift of the Givers**, leading end-to-end development of donation, logistics, and volunteer management platforms across 3 countries — while also teaching at Alexandria University and building AI-powered ERP/CRM platforms.
+I build high-performance mobile & web apps, lead development teams, and ship scalable backends used in real products — from e-commerce and logistics to AI-assisted platforms.
+
+🚀 **Currently:** Full Stack Software Engineer / Head of Developers at **[Gift of the Givers](https://giftofthegivers.org/)**, leading donation, logistics, and volunteer platforms across multiple countries.
+
+📁 **Portfolio:** [portfolio-omega-one-ao8j6gmdc9.vercel.app](https://portfolio-omega-one-ao8j6gmdc9.vercel.app/)
 
 ---
 
 ## 🌐 Socials
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelrahman-essam-a74039246/)
 [![GitHub](https://img.shields.io/badge/GitHub-000000.svg?logo=github&logoColor=white)](https://github.com/Abdelrahmanessam1254)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000.svg?logo=vercel&logoColor=white)](https://portfolio-omega-one-ao8j6gmdc9.vercel.app/)
@@ -30,17 +33,17 @@ I enjoy solving complex problems, optimizing performance, and delivering clean, 
 **Frameworks & Libraries**  
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![tRPC](https://img.shields.io/badge/tRPC-%232596BE.svg?style=for-the-badge&logo=tRPC&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Zod](https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white)
 ![TanStack Query](https://img.shields.io/badge/-TanStack%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 **Databases**  
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -53,79 +56,108 @@ I enjoy solving complex problems, optimizing performance, and delivering clean, 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
 
-**Architecture & AI**  
-`Clean Architecture` `Monorepo (Turborepo)` `MVVM / MVI / MVC` `RAG Pipelines` `Vector Databases` `LLM Integration` `Prompt Engineering` `Shared Schema Design`
+**Architecture**  
+`Clean Architecture` · `Monorepo (Turborepo)` · `MVVM / MVI / MVC` · `REST & tRPC APIs` · `Payment Gateways` · `Multi-role Admin Systems`
 
 ---
 
 ## 📌 Featured Projects
 
-### 🏥 Patient Referral Intake — Pain Management Neurology Clinic
-`TypeScript` `Next.js 14` `tRPC` `Drizzle ORM` `Neon PostgreSQL` `Zod` `Turborepo` `Docker`
-- Architected a Turborepo monorepo with a `@clinic/shared` Zod schema package, enforcing end-to-end type safety with zero duplication.
-- Implemented a tRPC API layer (`submitReferral` + `getReferrals`) with Drizzle ORM and Neon serverless PostgreSQL, returning structured responses with auto-generated UUIDs.
+### 🛍 [Koshtna](https://koshtna.cloud/) — Multi-branch Bakery E-commerce
+`Flutter` `Laravel` `Filament` `PostgreSQL` `Redis` `Plutu` `Docker`
+- Full commerce stack: mobile apps, Filament admin, per-branch inventory, delivery tracking, multi-role access, Arabic-first localization, and online payments.
+- Live: [Store](https://koshtna.cloud/) · [Admin](https://admin.koshtna.cloud/) · [Demo](https://drive.google.com/drive/folders/1MdhLwZKuciOyTpQnt9CrDdKOt5a64B_M?usp=sharing)
 
-### 🧠 Clinical QA Engine — LLM-Powered Medical Note Analysis API
-`Python` `FastAPI` `OpenAI` `Gemini` `Grok` `Prompt Engineering` `JSON Mode`
-- Built a backend API that analyzes clinical notes using LLMs, returning quality scores (0–100), letter grades, and actionable feedback with severity levels.
-- Developed a clean FastAPI service with validation, error handling, and interactive Swagger testing.
+### 📦 MOFS / Gift of the Givers — Operations Platform
+`Flutter` `Django` `Flask` `PostgreSQL` `Docker`
+- Donation, logistics, and volunteer management across multiple countries; multi-role operational workflows.
+- [giftofthegivers.org](https://giftofthegivers.org/) · [Web app](https://gog-web-13346-237ea.web.app/#/MainScreen)
 
-### 💬 Syntra — AI Chatbot Automation Platform
-`Next.js` `Django` `WebSockets` `NLP` `PostgreSQL`
-- Full AI-powered chatbot platform for customer support automation with real-time messaging via WebSockets.
+### 🏠 [Stayr](https://stayr.vercel.app) — Group Vacation Planning (Expo)
+`Expo` `React Native` `TypeScript` `Hono` `Drizzle` `PostgreSQL` `Supabase`
+- Swipe stays, build a shared shortlist, compare options, then book via partner platforms.
 
-### 🧾 Crysta — Smart Document Extraction Automation
-`Django` `React` `AI/OCR` `PostgreSQL`
-- AI-powered document processing system for enterprises, automating data extraction workflows end-to-end.
+### 🔧 Katina — Auto Parts Marketplace
+`Flutter` `Bloc` `Clean Architecture` `Maps`
+- Part requests, shop bidding, inventory, payments/commissions, and bilingual Arabic/English UX.
 
-### 📦 MOFS — ERP System for Gift of the Givers
-`Flutter` `Django` `PostgreSQL` `Docker`
-- Full operations management suite handling donation logistics, volunteer coordination, and reporting across 3 countries.
+### 🏡 Beyot Sudan — Real Estate Marketplace
+`Django` `DRF` `Flutter` `PostgreSQL` `Redis` `Firebase`
+- Sale/rent listings with admin approval, WhatsApp OTP auth, FCM notifications, and search/filters.
+- [Admin](https://admin.bayutsd.com/login)
 
-### 🏆 Troviny — Trip Planner *(Ranked #2 Graduation Project)*
-`Flutter` `Django` `PostgreSQL` `Firebase` `Docker` `Railway` `SendGrid`
-- Full-stack travel app with trip planning, personalized recommendations, and community engagement features.
-
-### ⚽ Champions Challenge — Football Trivia App *(10K+ Downloads)*
+### ⚽ Champions Challenge — Football Trivia *(10K+ downloads)*
 `Flutter` `Firebase` `PostgreSQL`
-- Football trivia game with 8 unique minigames reaching 10,000+ downloads and high fan engagement.
+- 8 minigames with high fan engagement.  
+- [Demo](https://drive.google.com/drive/folders/1nMlgrhIXTZTTTy82klSm_Xf3Cqu2EZwH?usp=sharing)
 
-### 🛍 Koshtna — Bakery E-commerce Platform
-`Flutter` `PHP` `PostgreSQL` `REST API`
-- Bakery platform with real-time delivery tracking, supplier management, and multi-role admin control.
+### 🏆 Troviny — Trip Planner *(#2 Graduation Project)*
+`Flutter` `Django` `PostgreSQL` `Firebase` `Railway` `SendGrid`
+- Trip planning, recommendations, and community features.  
+- [Demo](https://drive.google.com/drive/folders/1OxEwmeXsUpIcpUMCVPk2B8GJReEFD4wW?usp=sharing)
 
-### 🚨 Crime Catcher — Community Crime Reporting App
-`Flutter` `Firebase` `Django` `PostgreSQL` `SendGrid`
-- Community crime reporting app with interactive maps, WhatsApp alerts to authorities, and an emergency SOS triggered by double-pressing the volume button.
+### 🚨 Crime Catcher — Community Safety App
+`Flutter` `Django` `PostgreSQL` `Firebase` `Maps`
+- Crime reporting, danger-map pins, authority alerts, and SOS live-location sharing.  
+- [Demo](https://drive.google.com/drive/folders/1h4iP9od2UGkLgOGXzyPbcQcZY4bg2PTo?usp=sharing) · [Repo](https://github.com/Abdelrahmanessam1254/crime_app)
 
-### 💬 WhatsApp Clone
-`Flutter` `Dart` `Provider` `intl`
-- Fully functional WhatsApp UI clone with Chats, Status, and Calls tabs, dark/light mode, and search.
+### 🏥 [Patient Referral Intake](https://github.com/Abdelrahmanessam1254/clinic-referral)
+`Next.js` `tRPC` `Drizzle` `PostgreSQL` `Zod` `Turborepo` `Vitest` `Docker`
+- Type-safe clinical referral intake monorepo with shared Zod schemas end to end.
+
+### 🧠 [Clinical QA Engine](https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine)
+`Python` `FastAPI` `OpenAI` `Gemini` `Grok`
+- LLM API that scores clinical notes and returns severity-tagged actionable feedback.
+
+### 🚆 [Lagovia Train Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker)
+`TypeScript` `React` `iRail API`
+- Belgian rail delay/cancellation lookup (Digital Product School challenge).
+
+### 💬 [WhatsApp Clone](https://github.com/Abdelrahmanessam1254/WhatsApp_Clone)
+`Flutter` `Provider` `intl`
+- Chats, Status, Calls, dark/light mode, and search.
 
 ---
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=Abdelrahmanessam1254&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true)
+<p align="center">
+  <img height="180" src="https://github-readme-stats-one-bice.vercel.app/api?username=Abdelrahmanessam1254&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub stats" />
+  <img height="180" src="https://streak-stats.demolab.com?user=Abdelrahmanessam1254&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
 
-![](https://nirzak-streak-stats.vercel.app/?user=Abdelrahmanessam1254&theme=dark&hide_border=false)
+<p align="center">
+  <img height="180" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Abdelrahmanessam1254&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" alt="Top languages" />
+</p>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahmanessam1254&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
-### 🔝 Top Contributed Repos
-![](https://github-contributor-stats.vercel.app/api?username=Abdelrahmanessam1254&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdelrahmanessam1254&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
+</p>
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=Abdelrahmanessam1254&icon=0&color=0)](https://visitcount.itsvg.in)
+## 🔗 Highlighted Public Repos
+
+| Repo | Description |
+|------|-------------|
+| [clinic-referral](https://github.com/Abdelrahmanessam1254/clinic-referral) | Patient referral intake (Next.js + tRPC + Drizzle) |
+| [Clinical-QA-Engine](https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine) | LLM clinical-note QA API (FastAPI) |
+| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker |
+| [WhatsApp_Clone](https://github.com/Abdelrahmanessam1254/WhatsApp_Clone) | Flutter WhatsApp UI clone |
+| [Stormy](https://github.com/Abdelrahmanessam1254/Stormy) | Weather app (OpenWeather) |
+| [crime_app](https://github.com/Abdelrahmanessam1254/crime_app) | Community crime reporting app |
+
+---
+
+### ✍️ Dev Quote
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+---
+
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=Abdelrahmanessam1254&icon=0&color=0" alt="Profile views" />
+</p>
