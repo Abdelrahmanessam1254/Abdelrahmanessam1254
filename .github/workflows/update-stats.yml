@@ -20,21 +20,28 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate private-aware stats (jstrieb/github-stats)
+      - name: Generate private-aware stats (jstrieb/github-stats Python pin)
         env:
           ACCESS_TOKEN: ${{ secrets.STATS_PAT }}
         run: |
-          if [ -z "$ACCESS_TOKEN" ]; then
-            echo "::error::Missing repo secret STATS_PAT. Create a classic PAT with 'repo' + 'read:user', then add it as STATS_PAT."
+          set -euo pipefail
+          if [ -z "${ACCESS_TOKEN:-}" ]; then
+            echo "::error::Missing repo secret STATS_PAT. Create a classic PAT with repo + read:user (+ user:email recommended)."
             exit 1
           fi
+
           mkdir -p assets
           rm -rf /tmp/github-stats
-          git clone --depth 1 https://github.com/jstrieb/github-stats.git /tmp/github-stats
+          # Upstream rewrote to Zig; pin last working Python revision
+          git clone --filter=blob:none --no-checkout https://github.com/jstrieb/github-stats.git /tmp/github-stats
           cd /tmp/github-stats
+          git fetch --depth 1 origin 8561db79ee470242822eb359b3dc1f23e2e73dea
+          git checkout 8561db79ee470242822eb359b3dc1f23e2e73dea
+
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python generate.py
+          python generate_images.py
+
           cp generated/overview.svg "$GITHUB_WORKSPACE/assets/overview.svg"
           cp generated/languages.svg "$GITHUB_WORKSPACE/assets/top-langs.svg"
           ls -la "$GITHUB_WORKSPACE/assets"
@@ -43,6 +50,7 @@ jobs:
         env:
           USERNAME: Abdelrahmanessam1254
         run: |
+          set -euo pipefail
           mkdir -p assets
           curl -fsSL "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${USERNAME}&theme=tokyonight" -o assets/stats.svg
           curl -fsSL "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${USERNAME}&theme=tokyonight" -o assets/repos-per-language.svg

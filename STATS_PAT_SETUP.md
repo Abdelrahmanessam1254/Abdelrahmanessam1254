@@ -7,6 +7,7 @@
 3. Scopes:
    - `repo` (full control of private repositories)
    - `read:user`
+   - `user:email` (recommended — needed to attribute private commits correctly)
 4. Copy the token (you will only see it once)
 5. Add it as a repository secret:
 
