@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate private-aware stats (jstrieb/github-stats Python pin)
+      - name: Generate private-aware stats (pinned Python github-stats)
         env:
           ACCESS_TOKEN: ${{ secrets.STATS_PAT }}
         run: |
@@ -30,18 +30,23 @@ jobs:
             exit 1
           fi
 
-          mkdir -p assets
+          # Upstream rewrote to Zig — download last Python snapshot as a full tarball
+          PIN=8561db79ee470242822eb359b3dc1f23e2e73dea
           rm -rf /tmp/github-stats
-          # Upstream rewrote to Zig; pin last working Python revision
-          git clone --filter=blob:none --no-checkout https://github.com/jstrieb/github-stats.git /tmp/github-stats
+          mkdir -p /tmp/github-stats
+          curl -fsSL "https://github.com/jstrieb/github-stats/archive/${PIN}.tar.gz" -o /tmp/github-stats.tar.gz
+          tar -xzf /tmp/github-stats.tar.gz -C /tmp/github-stats --strip-components=1
           cd /tmp/github-stats
-          git fetch --depth 1 origin 8561db79ee470242822eb359b3dc1f23e2e73dea
-          git checkout 8561db79ee470242822eb359b3dc1f23e2e73dea
+          echo "Pinned tree contents:"
+          ls -la
+          test -f requirements.txt
+          test -f generate_images.py
 
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           python generate_images.py
 
+          mkdir -p "$GITHUB_WORKSPACE/assets"
           cp generated/overview.svg "$GITHUB_WORKSPACE/assets/overview.svg"
           cp generated/languages.svg "$GITHUB_WORKSPACE/assets/top-langs.svg"
           ls -la "$GITHUB_WORKSPACE/assets"
