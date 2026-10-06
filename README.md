@@ -158,7 +158,7 @@
 |------|-------------|
 | [clinic-referral](https://github.com/Abdelrahmanessam1254/clinic-referral) | Patient referral intake & AI triage (Next.js + tRPC + Drizzle) |
 | [Clinical-QA-Engine](https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine) | LLM clinical-note QA API (FastAPI) |
-| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker (Digital Product School challenge) |
+| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker |
 
 ---
 
