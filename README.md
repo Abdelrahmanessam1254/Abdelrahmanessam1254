@@ -4,7 +4,7 @@
 
 🚀 **Currently:** Full Stack Software Engineer at **[Gift of the Givers](https://giftofthegivers.org/)**: sole engineer behind MOFS, the internal platform used by **500+ employees in 3 countries** to manage **3,000+ humanitarian cases from 7 countries**.
 
-📁 **Portfolio:** [portfolio-omega-one-ao8j6gmdc9.vercel.app](https://portfolio-omega-one-ao8j6gmdc9.vercel.app/)
+📁 **Portfolio:** [portfolio-omega-one-ao8j6gmdc9.vercel.app](https://portfolio-omega-one-ao8j6gmdc9.vercel.app/): project galleries, my CV, and a drag-and-drop **Playground** where you can build a website from blocks in seconds.
 
 ---
 
@@ -101,10 +101,10 @@
 - 14 merged PRs fixing SEO, speed and payment issues on a live product.
 - Playwright pipeline that scrapes a prospect's outdated site and rebuilds it from CMS section variants, helping win 3 new clients.
 
-### 🏥 [Patient Referral Intake & AI Triage](https://github.com/Abdelrahmanessam1254/clinic-referral)
-`Next.js` `tRPC` `Drizzle` `PostgreSQL` `Zod` `OpenAI / Gemini / Grok` `Turborepo` `Vitest`
-- AI scores patient data and returns severity, urgency, red flags, next steps and a report.
-- Clinic chooses its LLM provider and plugs in its own API key; one Zod schema shared end to end.
+### 🏥 [Patient Referral Intake Portal](https://github.com/Abdelrahmanessam1254/clinic-referral)
+`Next.js` `tRPC` `Drizzle` `PostgreSQL` `Zod` `Turborepo` `Vitest`
+- Law firms submit patient referrals; clinic staff track them in an admin dashboard with search and status filters.
+- One Zod schema shared across the Next.js frontend and tRPC backend for end-to-end type safety.
 
 ### ⚽ Champions Challenge — Football Trivia *(10K+ downloads)*
 `Flutter` `Firebase` `PostgreSQL`
@@ -114,16 +114,59 @@
 ### 🛍 [Koshtna](https://koshtna.cloud/) — Multi-branch Bakery E-commerce *(v2 in progress)*
 `Flutter` `Laravel` `Filament` `PostgreSQL` `Redis` `Plutu` `Docker`
 - Mobile apps, Filament admin, per-branch inventory, delivery tracking, multi-role access, Arabic-first localization, and online payments.
-- [Store](https://koshtna.cloud/) · [Admin](https://admin.koshtna.cloud/) · [Demo](https://drive.google.com/drive/folders/1MdhLwZKuciOyTpQnt9CrDdKOt5a64B_M?usp=sharing)
+- [Store](https://koshtna.cloud/) · [Demo](https://drive.google.com/drive/folders/1MdhLwZKuciOyTpQnt9CrDdKOt5a64B_M?usp=sharing)
 
 ### 🏆 Troviny — Trip Planner *(#2 Graduation Project)*
 `Flutter` `Django` `PostgreSQL` `Firebase` `Railway` `SendGrid`
-- Trip planning, personalized recommendations, and community features.  
+- Trip booking, a social travel community, and a business dashboard for travel agencies. Built by a team of 6.  
 - [Demo](https://drive.google.com/drive/folders/1OxEwmeXsUpIcpUMCVPk2B8GJReEFD4wW?usp=sharing)
 
 ### 🧠 [Clinical QA Engine](https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine)
 `Python` `FastAPI` `OpenAI` `Gemini` `Grok`
 - LLM API that scores clinical notes and returns severity-tagged actionable feedback.
+
+### 🧩 More Projects
+- 🏠 **Beyot Sudan**: real-estate marketplace for Sudan with admin-approved listings, WhatsApp OTP login and push notifications. `Django` `DRF` `Flutter` `PostgreSQL` `Firebase`
+- 🔧 **Katina**: auto-parts marketplace for Egypt where drivers request parts and shops bid, with a garage and a nearby-shops map. `Flutter` `Bloc` `Clean Architecture`
+- 🚨 **Crime Catcher**: community crime reporting with a live danger map and admin analytics. `Flutter` `Django` `Firebase` `Maps` · [Demo](https://drive.google.com/drive/folders/1h4iP9od2UGkLgOGXzyPbcQcZY4bg2PTo?usp=sharing)
+- 🚆 **[Lagovia](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker)**: live Belgian rail departures with delays and cancellations. `TypeScript` `React` `iRail API`
+- 💬 **[WhatsApp Clone](https://github.com/Abdelrahmanessam1254/WhatsApp_Clone)**: chats, status and calls with light and dark mode. `Flutter` `Provider`
+- ⛅ **[Stormy](https://github.com/Abdelrahmanessam1254/Stormy)**: weather by GPS location or city search. `Flutter` `OpenWeather API`
+
+---
+
+## 🖼 Project Gallery
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="https://giftofthegivers.org/"><img src="./assets/projects/mofs.jpg" alt="MOFS" /></a><br /><b>MOFS / Gift of the Givers</b></td>
+    <td align="center" width="50%"><a href="https://khimyai.tech/"><img src="./assets/projects/khimyai.jpg" alt="Al-Khimyai" /></a><br /><b>Al-Khimyai</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://sites.skipee.co.uk"><img src="./assets/projects/skipee.jpg" alt="Skipee Sites" /></a><br /><b>Skipee Sites</b></td>
+    <td align="center"><a href="https://github.com/Abdelrahmanessam1254/clinic-referral"><img src="./assets/projects/referral.jpg" alt="Patient Referral Intake Portal" /></a><br /><b>Patient Referral Intake Portal</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://drive.google.com/drive/folders/1OxEwmeXsUpIcpUMCVPk2B8GJReEFD4wW?usp=sharing"><img src="./assets/projects/troviny.jpg" alt="Troviny" /></a><br /><b>Troviny</b></td>
+    <td align="center"><a href="https://drive.google.com/drive/folders/1nMlgrhIXTZTTTy82klSm_Xf3Cqu2EZwH?usp=sharing"><img src="./assets/projects/champions.jpg" alt="Champions Challenge" /></a><br /><b>Champions Challenge</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://koshtna.cloud/"><img src="./assets/projects/koshtna.jpg" alt="Koshtna" /></a><br /><b>Koshtna</b></td>
+    <td align="center"><a href="https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine"><img src="./assets/projects/clinical-qa.jpg" alt="Clinical QA Engine" /></a><br /><b>Clinical QA Engine</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://portfolio-omega-one-ao8j6gmdc9.vercel.app/#projects"><img src="./assets/projects/beyot.jpg" alt="Beyot Sudan" /></a><br /><b>Beyot Sudan</b></td>
+    <td align="center"><a href="https://portfolio-omega-one-ao8j6gmdc9.vercel.app/#projects"><img src="./assets/projects/katina.jpg" alt="Katina" /></a><br /><b>Katina</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://drive.google.com/drive/folders/1h4iP9od2UGkLgOGXzyPbcQcZY4bg2PTo?usp=sharing"><img src="./assets/projects/crime-catcher.jpg" alt="Crime Catcher" /></a><br /><b>Crime Catcher</b></td>
+    <td align="center"><a href="https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker"><img src="./assets/projects/lagovia.jpg" alt="Lagovia" /></a><br /><b>Lagovia Train Tracker</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Abdelrahmanessam1254/WhatsApp_Clone"><img src="./assets/projects/whatsapp.jpg" alt="WhatsApp Clone" /></a><br /><b>WhatsApp Clone</b></td>
+    <td align="center"><a href="https://github.com/Abdelrahmanessam1254/Stormy"><img src="./assets/projects/stormy.jpg" alt="Stormy" /></a><br /><b>Stormy</b></td>
+  </tr>
+</table>
 
 ---
 
@@ -156,9 +199,11 @@
 
 | Repo | Description |
 |------|-------------|
-| [clinic-referral](https://github.com/Abdelrahmanessam1254/clinic-referral) | Patient referral intake & AI triage (Next.js + tRPC + Drizzle) |
+| [clinic-referral](https://github.com/Abdelrahmanessam1254/clinic-referral) | Patient referral intake portal (Next.js + tRPC + Drizzle) |
 | [Clinical-QA-Engine](https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine) | LLM clinical-note QA API (FastAPI) |
-| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker |
+| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker (Digital Product School challenge) |
+| [WhatsApp_Clone](https://github.com/Abdelrahmanessam1254/WhatsApp_Clone) | WhatsApp UI clone with light and dark mode (Flutter) |
+| [Stormy](https://github.com/Abdelrahmanessam1254/Stormy) | Weather app powered by OpenWeather (Flutter) |
 
 ---
 
