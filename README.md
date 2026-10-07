@@ -201,7 +201,7 @@
 |------|-------------|
 | [clinic-referral](https://github.com/Abdelrahmanessam1254/clinic-referral) | Patient referral intake portal (Next.js + tRPC + Drizzle) |
 | [Clinical-QA-Engine](https://github.com/Abdelrahmanessam1254/Clinical-QA-Engine) | LLM clinical-note QA API (FastAPI) |
-| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker (Digital Product School challenge) |
+| [Lagovia-Train-Tracker](https://github.com/Abdelrahmanessam1254/Lagovia-Train-Tracker) | Belgian train delay tracker |
 | [WhatsApp_Clone](https://github.com/Abdelrahmanessam1254/WhatsApp_Clone) | WhatsApp UI clone with light and dark mode (Flutter) |
 | [Stormy](https://github.com/Abdelrahmanessam1254/Stormy) | Weather app powered by OpenWeather (Flutter) |
 
